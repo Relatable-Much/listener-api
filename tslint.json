@@ -1,0 +1,13 @@
+{
+  "defaultSeverity": "error",
+  "extends": ["tslint:recommended", "tslint-config-prettier"],
+  "jsRules": {},
+  "rules": {
+    "no-var-requires": false,
+    "no-console": false
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": ["bin/**/*", "node_modules/**/*", "dist/**/*"]
+  }
+}
